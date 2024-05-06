@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 
 body, html {
     height: 100%;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif;
     background: url('BG.png') no-repeat center center fixed; 
     background-size: cover;
 }
