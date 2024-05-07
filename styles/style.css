@@ -15,7 +15,6 @@ body {
     height: 100%;
 }
 .vector-right {
-    /* background-image: url(../imgs/icons/Vector.png) no-repeat; */
     background-position: right;
     position: absolute;
     right: 0;
@@ -27,7 +26,7 @@ body {
 .vector-left {
     transform: rotate(180deg);
      background-position: right;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: -50px;
     z-index: -1;
@@ -99,6 +98,7 @@ main {
 }
 
 main .container {
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center; 
